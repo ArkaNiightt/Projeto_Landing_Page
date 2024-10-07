@@ -57,7 +57,7 @@
     position: relative;
     padding: 1px;
     & .card {
-        padding-top: 4.25rem;
+      padding-top: 4.25rem;
       & > span {
         position: absolute;
         top: 0;
@@ -81,16 +81,16 @@
     }
 
     & ::before {
-        content: "";
-        background: linear-gradient(
-          90deg,
-          var(--brand-color-secondary) 0%,
-          var(--brand-color-primary) 100%
-        );
-        position: absolute;
-        inset: 0;
-        border-radius: 1.5rem;
-        z-index: -1;
+      content: "";
+      background: linear-gradient(
+        90deg,
+        var(--brand-color-secondary) 0%,
+        var(--brand-color-primary) 100%
+      );
+      position: absolute;
+      inset: 0;
+      border-radius: 1.5rem;
+      z-index: -1;
     }
   }
 
@@ -103,11 +103,11 @@
     }
 
     & .premium .card {
-        padding-bottom: 6rem;
+      padding-bottom: 6rem;
     }
 
-    & .card:nth-child(3) .separator{
-        margin-block: 1.5rem;
+    & .card:nth-child(3) .separator {
+      margin-block: 1.5rem;
     }
   }
 }
